@@ -15,16 +15,16 @@ from pymongo import MongoClient
 from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
 
 
-API_ID = ""
-API_HASH = ""
-BOT_TOKEN = ""
-MONGO_URL = ""
-BOT_USERNAME = "" 
-UPDATE_CHNL = "InflexUpdates"
-OWNER_ID = "5747402681"
-OWNER_USERNAME = "TheInflexLeader"
-SUPPORT_GRP = "InflexSupport"
-BOT_NAME = "Nick"
+API_ID = "38111992"
+API_HASH = "8c04be8bb571b1f0211f5367bc75dcb6"
+BOT_TOKEN = "8561690035:AAFdZQeH90h1zwj2apyLOoh37ww-HIoE2Ho"
+MONGO_URL = "mongodb+srv://YumexBot:YumexBot@cluster0.womhhqn.mongodb.net/?appName=Cluster0"
+BOT_USERNAME = "coco" 
+UPDATE_CHNL = "https://t.me/DVJBOTS"
+OWNER_ID = "6909964120"
+OWNER_USERNAME = "@Divyansh_Playz"
+SUPPORT_GRP = "https://t.me/DVJGROUP"
+BOT_NAME = "coco"
 START_IMG1 = "https://te.legra.ph/file/4d6ed570aefc61e59d0a7.jpg"
 START_IMG2 = "https://te.legra.ph/file/2c8173c3b4398532ff098.jpg"
 START_IMG3 = "https://te.legra.ph/file/d8ec3e48d145a8ec4771d.jpg"
@@ -46,7 +46,7 @@ STKR7 = os.environ.get("STKR7", "CAACAgQAAxkBAALRkWNZXYyCvkfI4d1lK0AEMkG0GdUmAAJ
 STKR8 = os.environ.get("STKR8", "CAACAgQAAxkBAALRkmNZXZg1zuakmgkPf2lfXPXi4bZaAALACgACQUGpUjAAAYL3e09XCyoE")
 
 bot = Client(
-    "Nick" ,
+    "coco" ,
     api_id=API_ID,
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
